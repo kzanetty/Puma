@@ -10,6 +10,7 @@ import javax.validation.constraints.NotBlank;
 
 @RestController
 public class TestController {
+
     @GetMapping("/test")
     ResponseEntity<String> test(@RequestParam @NotBlank String clientName) {
         var body = "my name is PUMA and yours is %s".formatted(clientName);
