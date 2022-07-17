@@ -13,15 +13,6 @@ import lombok.Setter;
 public class Content {
 
     private String name;
-    private String email;
-    private String mensagem;
-
-    @Override
-    public String toString() {
-        return "Client{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", mensagem='" + mensagem + '\'' +
-                '}';
-    }
+    private String message;
+    private String subject;
 }

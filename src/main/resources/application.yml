@@ -1,0 +1,14 @@
+spring:
+    mail:
+      host: email-smtp.us-east-1.amazonaws.com
+      username: AKIAZVUSD6XSYXYNEEMA
+      password: BMubMUeD65cnKJC5mkBGKpElyu8ol/b0n7V7CB/huLc2
+      properties:
+        mail:
+          transport.protocol: smtp
+          smtp:
+            port: 25
+            auth: true
+            starttls.enable: true
+            starttls.required: true
+            ssl.trust: email-smtp.us-east-1.amazonaws.com
